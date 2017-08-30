@@ -17,31 +17,37 @@
   "investors": [
     {
       "id": 1,
+      "investorName": "Investor 1",
       "amlProfileId": 1
     },
     {
       "id": 3,
+      "investorName": "Investor 3",
       "amlProfileId": 3
     }
   ],
   "contacts": [
     {
       "id": 11,
+      "contactName": "Contact A of Investor 1",
       "amlProfileId": 1,
       "investorId": 1
     },
     {
       "id": 12,
+      "contactName": "Contact B of Investor 1",
       "amlProfileId": 1,
       "investorId": 1
     },
     {
       "id": 31,
+      "contactName": "Contact A of Investor 3",
       "amlProfileId": 3,
       "investorId": 3
     },
     {
       "id": 32,
+      "contactName": "Contact B of Investor 3",
       "amlProfileId": 3,
       "investorId": 3
     }
@@ -51,74 +57,90 @@
       "id": 50,
       "entityType": "Investor",
       "investorId": 1
+      ,"reviewStatus": "review needed"
     },
     {
       "id": 51,
       "entityType": "Contact",
-      "contactId": 11
+      "contactId": 11,
+      "reviewStatus": "review completed"
     },
     {
       "id": 52,
       "entityType": "Contact",
-      "contactId": 12
+      "contactId": 12,
+      "reviewStatus": "review needed"
     },
     {
       "id": 53,
       "entityType": "Investor",
-      "investorId": 3
+      "investorId": 3,
+      "reviewStatus": "review completed"
     },
     {
       "id": 54,
       "entityType": "Investor",
-      "investorId": 3
+      "investorId": 3,
+      "reviewStatus": "review needed"
     },
     {
       "id": 55,
       "entityType": "Contact",
-      "contactId": 31
+      "contactId": 31,
+      "reviewStatus": "review completed"
     },
     {
       "id": 56,
       "entityType": "Contact",
-      "contactId": 32
+      "contactId": 32,
+      "reviewStatus": "review needed"
     }
   ],
   "amlHits": [
     {
       "id": 500,
-      "amlResultId": 50
+      "amlResultId": 50,
+      "matchType": "true match"
     },
     {
       "id": 501,
-      "amlResultId": 50
+      "amlResultId": 50,
+            "matchType": "false match"
     },
     {
       "id": 502,
-      "amlResultId": 50
+      "amlResultId": 50,
+            "matchType": "true match"
     },
     {
       "id": 510,
       "amlResultId": 51
+      ,"matchType": "true match"
     },
     {
       "id": 520,
       "amlResultId": 52
+       ,"matchType": "true match"
     },
     {
       "id": 530,
       "amlResultId": 53
+       ,"matchType": "false match"
     },
     {
       "id": 540,
       "amlResultId": 54
+       ,"matchType": "true match"
     },
     {
       "id": 550,
       "amlResultId": 55
+       ,"matchType": "false match"
     },
     {
       "id": 560,
       "amlResultId": 56
+       ,"matchType": "true match"
     }
   ]
 }
