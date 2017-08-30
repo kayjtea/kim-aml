@@ -1,0 +1,124 @@
+{
+  "amlProfiles": [
+    {
+      "id": 1,
+      "summary": {
+        "amlDate": "2008-11-1"
+      }
+    },
+    {
+      "id": 3,
+      "investorId": 3,
+      "summary": {
+        "amlDate": "2107-12-1"
+      }
+    }
+  ],
+  "investors": [
+    {
+      "id": 1,
+      "amlProfileId": 1
+    },
+    {
+      "id": 3,
+      "amlProfileId": 3
+    }
+  ],
+  "contacts": [
+    {
+      "id": 11,
+      "amlProfileId": 1,
+      "investorId": 1
+    },
+    {
+      "id": 12,
+      "amlProfileId": 1,
+      "investorId": 1
+    },
+    {
+      "id": 31,
+      "amlProfileId": 3,
+      "investorId": 3
+    },
+    {
+      "id": 32,
+      "amlProfileId": 3,
+      "investorId": 3
+    }
+  ],
+  "amlResults": [
+    {
+      "id": 50,
+      "entityType": "Investor",
+      "investorId": 1
+    },
+    {
+      "id": 51,
+      "entityType": "Contact",
+      "contactId": 11
+    },
+    {
+      "id": 52,
+      "entityType": "Contact",
+      "contactId": 12
+    },
+    {
+      "id": 53,
+      "entityType": "Investor",
+      "investorId": 3
+    },
+    {
+      "id": 54,
+      "entityType": "Investor",
+      "investorId": 3
+    },
+    {
+      "id": 55,
+      "entityType": "Contact",
+      "contactId": 31
+    },
+    {
+      "id": 56,
+      "entityType": "Contact",
+      "contactId": 32
+    }
+  ],
+  "amlHits": [
+    {
+      "id": 500,
+      "amlResultId": 50
+    },
+    {
+      "id": 501,
+      "amlResultId": 50
+    },
+    {
+      "id": 502,
+      "amlResultId": 50
+    },
+    {
+      "id": 510,
+      "amlResultId": 51
+    },
+    {
+      "id": 520,
+      "amlResultId": 52
+    },
+    {
+      "id": 530,
+      "amlResultId": 53
+    },
+    {
+      "id": 540,
+      "amlResultId": 54
+    },
+    {
+      "id": 550,
+      "amlResultId": 55
+    },
+    {
+      "id": 560,
+      "amlResultId": 56
+    }
+  ]
+}
