@@ -56,91 +56,94 @@
     {
       "id": 50,
       "entityType": "Investor",
-      "investorId": 1
-      ,"reviewStatus": "review needed"
+      "investorId": 1,
+      "reviewStatus": "review needed",
+      "amlHits": [
+        {
+          "id": 500,
+          "matchType": "true match"
+        },
+        {
+          "id": 501,
+          "matchType": "false match"
+        },
+        {
+          "id": 502,
+          "matchType": "true match"
+        }
+      ]
     },
     {
       "id": 51,
       "entityType": "Contact",
       "contactId": 11,
-      "reviewStatus": "review completed"
+      "reviewStatus": "review completed",
+      "amlHits": [
+        {
+          "id": 503,
+          "matchType": "true match"
+        }
+      ]
     },
     {
       "id": 52,
       "entityType": "Contact",
       "contactId": 12,
-      "reviewStatus": "review needed"
+      "reviewStatus": "review needed",
+      "amlHits": [
+        {
+          "id": 504,
+          "matchType": "true match"
+        }
+      ]
     },
     {
       "id": 53,
       "entityType": "Investor",
       "investorId": 3,
-      "reviewStatus": "review completed"
+      "reviewStatus": "review completed",
+      "amlHits": [
+        {
+          "id": 505,
+          "matchType": "false match"
+        }
+      ]
     },
     {
       "id": 54,
       "entityType": "Investor",
       "investorId": 3,
-      "reviewStatus": "review needed"
+      "reviewStatus": "review needed",
+      "amlHits": [
+        {
+          "id": 506,
+          "matchType": "true match"
+        }
+      ]
     },
     {
       "id": 55,
       "entityType": "Contact",
       "contactId": 31,
-      "reviewStatus": "review completed"
+      "reviewStatus": "review completed",
+      "amlHits": [
+        {
+          "id": 507,
+          "matchType": "true match"
+        }
+      ]
     },
     {
       "id": 56,
       "entityType": "Contact",
       "contactId": 32,
-      "reviewStatus": "review needed"
-    }
-  ],
-  "amlHits": [
-    {
-      "id": 500,
-      "amlResultId": 50,
-      "matchType": "true match"
-    },
-    {
-      "id": 501,
-      "amlResultId": 50,
-            "matchType": "false match"
-    },
-    {
-      "id": 502,
-      "amlResultId": 50,
-            "matchType": "true match"
-    },
-    {
-      "id": 510,
-      "amlResultId": 51
-      ,"matchType": "true match"
-    },
-    {
-      "id": 520,
-      "amlResultId": 52
-       ,"matchType": "true match"
-    },
-    {
-      "id": 530,
-      "amlResultId": 53
-       ,"matchType": "false match"
-    },
-    {
-      "id": 540,
-      "amlResultId": 54
-       ,"matchType": "true match"
-    },
-    {
-      "id": 550,
-      "amlResultId": 55
-       ,"matchType": "false match"
-    },
-    {
-      "id": 560,
-      "amlResultId": 56
-       ,"matchType": "true match"
+      "reviewStatus": "review needed",
+      "amlHits": [
+        {
+          "id": 508,
+          "matchType": "true match"
+        }
+      ]
     }
   ]
 }
